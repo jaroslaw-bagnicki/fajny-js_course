@@ -1,4 +1,5 @@
 /* global alert */
-import attemptsCounter from './atemptsCounter';
-
-export default () => alert(`Mamy to! Liczba prób: ${attemptsCounter.getAttempts()}.`);
+export default (count) => {
+  alert('Mamy to!');
+  alert(`Liczba prób: ${count}.`);
+};

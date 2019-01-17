@@ -2,15 +2,15 @@ import TO_FIND from './random';
 import getNum from './input';
 import success from './success';
 import info from './userInfo';
-import attemptsCounter from './atemptsCounter';
+import counter from './counter';
 
 export default () => {
-  attemptsCounter.increase();
+  counter.init();
   let num = getNum();
   while (num !== TO_FIND) {
     info(num, TO_FIND);
-    attemptsCounter.increase();
+    counter.increment();
     num = getNum();
   }
-  success();
+  success(counter.count);
 };
