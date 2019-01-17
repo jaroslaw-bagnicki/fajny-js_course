@@ -1,3 +1,3 @@
 /* global alert */
-alert('Wylosowano liczbę z przedziału 2-50. Zgaduj!');
-export default Math.floor(Math.random() * 50 + 1);
+alert('Wylosowano liczbę z przedziału 1-10. Zgaduj!');
+export default Math.floor(Math.random() * 10 + 1);
