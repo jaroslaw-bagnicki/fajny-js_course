@@ -1,3 +1,5 @@
+/* global alert */
+
 // import game from './game';
 import ghConverter from './github/converter';
 
@@ -9,4 +11,4 @@ const ghRepoMock = {
   license: { spdx_id: 'MIT' }
 };
 
-console.log(ghConverter(ghRepoMock));
+alert(ghConverter(ghRepoMock));
