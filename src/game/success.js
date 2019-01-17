@@ -1,2 +1,5 @@
 /* global alert */
-export default () => alert('Mamy to!');
+export default (count) => {
+  alert('Mamy to!');
+  alert(`Liczba prób: ${count}.`);
+};
