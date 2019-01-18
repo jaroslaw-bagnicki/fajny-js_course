@@ -13,18 +13,20 @@ function converter(repoInfo) {
   });
 }
 
-function fetchRepos() {
-  return fetch(URL)
-    .then((res) => {
-      if (res.ok) {
-        return res.json();
-      }
-      throw Error('Response not 200');
-    })
-    .then(arr => arr
-      .filter(repo => !FORBIDEN_REPOS.includes(repo.name))
-      .map(converter))
-    .catch(err => console.warn(err));
+async function fetchRepos() {
+  try {
+    const res = await fetch(URL);
+    if (res.ok) {
+      const arr = (await res.json())
+        .filter(repo => !FORBIDEN_REPOS.includes(repo.name))
+        .map(converter);
+      return arr;
+    }
+    throw Error('Response not 200');
+  } catch (err) {
+    console.warn(err);
+    return [];
+  }
 }
 
 export default fetchRepos;
