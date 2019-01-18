@@ -1,7 +1,7 @@
 import fetchRepos from './service';
 
 function getRepos() {
-  fetchRepos().then(arr => console.log(arr));
+  fetchRepos().then(arr => arr.forEach(repo => console.log(repo.toString())));
 }
 
 export default getRepos;
