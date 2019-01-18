@@ -11,6 +11,6 @@ export class GitHubRepo {
   }
 
   toString() {
-    return `${this.name} (${this.starsInfo} stars)`;
+    return `${this.name} (${this.starsInfo} stars, license: ${this.license})`;
   }
 }

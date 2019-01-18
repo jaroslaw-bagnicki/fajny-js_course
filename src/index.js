@@ -11,4 +11,11 @@ const ghRepoMock = {
   license: { spdx_id: 'MIT' }
 };
 
+const ghRepoMock2 = {
+  name: 'null-test',
+  stargazers_count: 0,
+  license: null
+};
+
 alert(ghConverter(ghRepoMock));
+alert(ghConverter(ghRepoMock2));
