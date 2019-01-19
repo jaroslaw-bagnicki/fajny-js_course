@@ -6,13 +6,11 @@ const ALLOWED_JOKE_TYPES = ['programming'];
 async function showJoke() {
   let joke;
   joke = await getDkatzJoke();
-  if (ALLOWED_JOKE_TYPES.includes(joke.type)) {
-    alert(joke.setup);
-    alert(joke.punchline);
-  } else {
+  if (!ALLOWED_JOKE_TYPES.includes(joke.type)) {
     joke = await getChuckJoke();
-    alert(joke.value.joke);
   }
+  console.log(joke);
+  alert(joke);
 }
 
 export default showJoke;
