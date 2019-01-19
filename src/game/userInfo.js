@@ -1,4 +1,3 @@
-/* global alert */
 import { TOO_LESS, TOO_MUCH } from './constants';
 
 export default (num, expected) => {

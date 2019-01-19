@@ -1,6 +1,5 @@
 import { getDkatzJoke, getChuckJoke } from './service';
 
-/* global alert */
 const ALLOWED_JOKE_TYPES = ['programming'];
 
 async function showJoke() {
