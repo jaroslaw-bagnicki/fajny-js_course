@@ -1,1 +1,1 @@
-export { getRepos, getPost } from './service';
+export { getRepos, getPost, getAboutMe } from './service';
