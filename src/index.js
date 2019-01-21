@@ -2,3 +2,4 @@
 // import main from './github';
 // import './joke';
 import './blog';
+import './about-me';
