@@ -12,4 +12,4 @@ async function showJoke() {
   alert(joke);
 }
 
-export default showJoke;
+showJoke();
