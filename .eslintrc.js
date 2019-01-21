@@ -9,6 +9,7 @@ module.exports = {
         "comma-dangle": "off"
     },
     "globals": {
+        "document": true,
         "alert": true,
         "prompt": true,
         "fetch": true
