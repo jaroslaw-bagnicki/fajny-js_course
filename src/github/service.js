@@ -1,6 +1,9 @@
+import { fetchData } from './fetchData';
 import { GitHubRepo } from './model';
 
-const URL = 'https://api.github.com/users/jaroslaw-bagnicki/repos';
+const REPOS_URL = 'https://api.github.com/users/jaroslaw-bagnicki/repos/';
+const POSTS_URL = 'https://raw.githubusercontent.com/jaroslaw-bagnicki/fajny-js_course/master/sample_data/';
+
 const FORBIDEN_REPOS = ['kurs-gita', 'Mosh-11', 'webpack_demo', 'parcel_demo'];
 
 function converter(repoInfo) {
@@ -12,20 +15,18 @@ function converter(repoInfo) {
   });
 }
 
-async function fetchRepos() {
-  try {
-    const res = await fetch(URL);
-    if (res.ok) {
-      const arr = (await res.json())
-        .filter(repo => !FORBIDEN_REPOS.includes(repo.name))
-        .map(converter);
-      return arr;
-    }
-    throw Error('Response not 200');
-  } catch (err) {
-    console.warn(err);
-    return [];
-  }
+async function getRepos() {
+  const repos = await fetchData(REPOS_URL, 'json');
+  return repos
+    .filter(repo => !FORBIDEN_REPOS.includes(repo.name))
+    .map(converter);
 }
 
-export default fetchRepos;
+function getPost(fileName) {
+  return fetchData(`${POSTS_URL}${fileName}`, 'text');
+}
+
+export {
+  getRepos,
+  getPost
+};

@@ -1,6 +1,6 @@
 // import game from './game';
 // import main from './github';
-import showJoke from './joke';
+// import showJoke from './joke';
+import './blog';
 
-// main();
-showJoke();
+// showJoke();
