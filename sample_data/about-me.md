@@ -1,10 +1,10 @@
 # About Me
 
-<img src="jb2_xs.jpg" alt="drawing" width="250px"/>
+![me](https://raw.githubusercontent.com/jaroslaw-bagnicki/fajny-js_course/feature/about-me/sample_data/jb2_xs.jpg)
 
-Część! Mam na imię <span style="color:purple">**Jarek**</span> i do grudnia 2017 roku uczę się programowania w <span style="color:orange">**JavaScript**</span>'cie. Wtedy właśnie wtedy doszedłem do wniosku, że w mojej dotychczasowej profesji, po 8 latach pracy wypaliłem się zawodowo i nadszedł czas na zmianę. Postawiłem na realizację szkolnych marzeń o kodowaniu :simple_smile:.
+Część! Mam na imię **Jarek** i do grudnia 2017 roku uczę się programowania w **JavaScript**'cie. Wtedy właśnie wtedy doszedłem do wniosku, że w mojej dotychczasowej profesji, po 8 latach pracy wypaliłem się zawodowo i nadszedł czas na zmianę. Postawiłem na realizację szkolnych marzeń o kodowaniu :simple_smile:.
 
-<span style="color:orange">**JavaScript**</span> wybrałem nieprzypadkowo. Dzięki ogromnemu rozwojowi, w ostatnich latach,tego jezyka oraz technologii z nim związanych pozwala on nie tylko na napisanie części frontend'owe aplikacji webowych. Ale również backend'u po stronie serwera, a także crossplatformowych aplikacji destopowych i mobilnych.
+**JavaScript** wybrałem nieprzypadkowo. Dzięki ogromnemu rozwojowi, w ostatnich latach,tego jezyka oraz technologii z nim związanych pozwala on nie tylko na napisanie części frontend'owe aplikacji webowych. Ale również backend'u po stronie serwera, a także crossplatformowych aplikacji destopowych i mobilnych.
 
 ---
 ### My sources of knowledge:
