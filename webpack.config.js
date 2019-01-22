@@ -7,9 +7,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     }),
-    new CopyWebpackPlugin({
+    new CopyWebpackPlugin([{
       from: 'src/assets/',
-      to: 'dist/assets/'
-    })
+      to: 'assets/'
+    }])
   ]
 };
