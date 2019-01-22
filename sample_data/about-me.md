@@ -1,7 +1,3 @@
-# About Me
-
-![me](https://raw.githubusercontent.com/jaroslaw-bagnicki/fajny-js_course/feature/about-me/sample_data/jb2_xs.jpg)
-
 Część! Mam na imię **Jarek** i do grudnia 2017 roku uczę się programowania w **JavaScript**'cie. Wtedy właśnie wtedy doszedłem do wniosku, że w mojej dotychczasowej profesji, po 8 latach pracy wypaliłem się zawodowo i nadszedł czas na zmianę. Postawiłem na realizację szkolnych marzeń o kodowaniu :simple_smile:.
 
 **JavaScript** wybrałem nieprzypadkowo. Dzięki ogromnemu rozwojowi, w ostatnich latach,tego jezyka oraz technologii z nim związanych pozwala on nie tylko na napisanie części frontend'owe aplikacji webowych. Ale również backend'u po stronie serwera, a także crossplatformowych aplikacji destopowych i mobilnych.
