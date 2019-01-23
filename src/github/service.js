@@ -3,7 +3,7 @@ import { GitHubRepo } from './model';
 
 const REPOS_URL = 'https://api.github.com/users/jaroslaw-bagnicki/repos/';
 const POSTS_URL = 'https://raw.githubusercontent.com/jaroslaw-bagnicki/fajny-js_course/master/sample_data/';
-const ABOUT_ME_URL = 'https://raw.githubusercontent.com/jaroslaw-bagnicki/fajny-js_course/feature/about-me/sample_data/about-me.md';
+const ABOUT_ME_URL = 'https://raw.githubusercontent.com/jaroslaw-bagnicki/fajny-js_course/master/sample_data/about-me.md';
 
 const FORBIDEN_REPOS = ['kurs-gita', 'Mosh-11', 'webpack_demo', 'parcel_demo'];
 

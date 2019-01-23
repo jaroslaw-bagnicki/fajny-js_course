@@ -1,0 +1,18 @@
+.about-me {
+  
+  .containter {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .my-photo {
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 3px solid hsl(0, 0%, 90%);
+  }
+
+}
+

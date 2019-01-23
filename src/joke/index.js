@@ -8,8 +8,7 @@ async function showJoke() {
   if (!ALLOWED_JOKE_TYPES.includes(joke.type)) {
     joke = await getChuckJoke();
   }
-  console.log(joke);
   alert(joke);
 }
 
-showJoke();
+export default showJoke;
