@@ -1,4 +1,4 @@
-import scss from './styles/main.scss';
+import './styles/main.scss';
 import startGame from './game';
 import showJoke from './joke';
 import './blog';
