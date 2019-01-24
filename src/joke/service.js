@@ -1,7 +1,7 @@
 import { Joke } from './model';
 
 const JOKE_API_URL = 'https://official-joke-api.appspot.com/random_joke';
-const ICNDB_JOKE_API_URL = 'http://api.icndb.com/jokes/random?exclude=[nerdy]';
+const ICNDB_JOKE_API_URL = 'https://api.icndb.com/jokes/random?limitTo=[nerdy]';
 
 async function genericFetch(url) {
   try {
