@@ -28,7 +28,10 @@
           left: 50%;
           content: '';
           display: block;
-          background-color: darkred;
+          // Gradient get from: https://uigradients.com/#BloodyMary
+          background: #DD2476;
+          background: -webkit-linear-gradient(to top, #DD2476, #FF512F); 
+          background: linear-gradient(to top, #DD2476, #FF512F);
           height: 5px;
           width: 0;
           transition: .3s ease-out;
