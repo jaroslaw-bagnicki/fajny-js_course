@@ -13,6 +13,7 @@
       display: inline-block;
       
       .button {
+        position: relative;
         color: inherit;
         text-decoration: none;
         display: inline-flex;
@@ -20,11 +21,26 @@
         align-items: center;
         width: 2em;
         height: 2em;
-        border-radius: 5px;
-        transition: .3s;
-        &:hover {
-          background-color: rgba(128, 128, 128, .3);
+
+        &::after {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          content: '';
+          display: block;
+          background-color: darkred;
+          height: 5px;
+          width: 0;
+          transition: .3s ease-out;
         }
+
+        &:hover::after {
+          bottom: 0;
+          left: 0;
+          width: 100%;
+        }
+
+
   
       }
     }
