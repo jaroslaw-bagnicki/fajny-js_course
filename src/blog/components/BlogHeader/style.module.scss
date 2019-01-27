@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(to top, #f7b733, #fc4a1a);
+}
+
+.avatar {
+  width: 75%;
+  max-width: 15rem;
+  user-select: none;
+}
+
+.title {
+ text-transform: uppercase;
+ font-size: 2rem;
+ color: hsla(0, 0, 100%, .8);
+ text-align: center;
+ user-select: none;
+}
+
+.description {
+  font-size: 1.25rem;
+  color: hsla(0, 0, 100%, .8);
+  text-align: center;
+  font-weight: 500;
+  user-select: none;
+}
