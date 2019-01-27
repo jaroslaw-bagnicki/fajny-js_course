@@ -9,6 +9,8 @@ blog-header {
   flex-shrink: 0;
   width: 30%;
   max-width: 20rem;
+  z-index: 1;
+  box-shadow: 0 1rem 3rem rgba(125, 125, 125, 0.7);
 }
 
 blog-content {
@@ -17,7 +19,7 @@ blog-content {
   background-color: var(--content-bg-color);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  overflow-y: scroll;
 }
 
 blog-footer {
