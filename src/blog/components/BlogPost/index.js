@@ -1,4 +1,4 @@
-import { getPost } from '../../github';
+import { getPost } from '../../../github';
 
 /* eslint-disable no-unused-vars */
 export class BlogPostElement extends HTMLElement {
