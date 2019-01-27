@@ -1,13 +1,15 @@
+import style from './style.module.scss';
 import { getPost } from '../../../github';
 
 /* eslint-disable no-unused-vars */
-export class BlogPostElement extends HTMLElement {
+export class BlogPost extends HTMLElement {
   static get observedAttributes() {
     return ['post-id'];
   }
 
   constructor() {
     super();
+    this.className = style.container;
     this.attachShadow({ mode: 'open' });
   }
 
