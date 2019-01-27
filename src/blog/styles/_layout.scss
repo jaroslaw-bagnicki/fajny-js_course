@@ -1,0 +1,27 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+blog-header {
+  flex-shrink: 0;
+  width: 30%;
+  max-width: 20rem;
+}
+
+blog-content {
+  min-height: 100%;
+  flex-grow: 1;
+  background-color: var(--content-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+blog-footer {
+  display: block;
+  height: 3.5rem;
+  background-color: beige;
+}
